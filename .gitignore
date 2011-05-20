@@ -1,5 +1,4 @@
 #flash
-*.swf
 
 # xcode noise
 build/*
