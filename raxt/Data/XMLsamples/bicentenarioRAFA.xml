@@ -1,0 +1,241 @@
+<voodooRAXT>
+    <properties>
+        <totalGeos value="13"/>
+        <showStats value="0"/> 
+        <trackPattern file="Data/voodoo70s16x.pat"/>   
+        <trackPatternBorderPercent value="70"/>   
+        <trackPatternResolution value="16"/>  
+        <trackPatternCorrectionMatrix px="0" py="0" pz="0" rx="0" ry="0" rz="-90" sx="1" sy="-1" sz="-1"/>  
+        <shouldInvertMaterials value="0"/>
+        <shouldStopAnimationsOnTrackerLost value="1"/>
+        <shouldMirrorWebcam value="0"/>
+        <easeAnimation value="1"/>
+        <jitterRemover value=".62"/>
+    </properties>
+    <scene>
+        <geos>	
+        
+            <geo id="0" dae="model/geos/inter/logo.zip" bitmap="model/materials/inter/logo.jpg"/>
+            <geotransforms id="0" 
+                        px="-4" py="25" pz="0"
+                        rx="0" ry="0" rz="0"
+                        sx="0.7" sy="0.7" sz="0.7"/>
+            <materialtransforms id="0" invert="1"/> 
+            
+            <geo id="1" dae="model/geos/trafalgar/trafalgar.zip" bitmap="model/materials/trafalgar/trafalgar.png"/>
+            <geotransforms id="1" 
+                        px="-5" py="30" pz="8"
+                        rx="0" ry="0" rz="0"
+                        sx="0.7" sy="0.7" sz="0.7"/>
+             <materialtransforms id="1" invert="1"/> 
+             
+            <geo id="2" dae="model/geos/conspiracion/conspiracion.zip" bitmap="model/materials/conspiracion/conspiracion.png"/>
+            <geotransforms id="2" 
+                        px="-2" py="27" pz="8"
+                        rx="0" ry="0" rz="0"
+                        sx="0.7" sy="0.7" sz="0.7"/>
+             <materialtransforms id="2" invert="1"/> 
+             
+            <geo id="3" dae="model/geos/grito/grito.zip" bitmap="model/materials/grito/grito.png"/>
+            <geotransforms id="3" 
+                        px="-4" py="27" pz="0"
+                        rx="0" ry="0" rz="0"
+                        sx="0.8" sy="0.8" sz="0.8"/>
+             <materialtransforms id="3" invert="1"/> 
+                         
+            <geo id="4" dae="model/geos/allende/allende.zip" bitmap="model/materials/allende/allende.png"/>
+            <geotransforms id="4" 
+                        px="-2" py="35" pz="12"
+                        rx="180" ry="0" rz="0"
+                        sx="0.6" sy="0.6" sz="0.6"/>
+             <materialtransforms id="4" invert="1"/> 
+			 
+			 <geo id="5" dae="model/geos/pipila/pipila.zip" bitmap="model/materials/pipila/pipila.png"/>
+            <geotransforms id="5" 
+                        px="0" py="35" pz="0"
+                        rx="0" ry="0" rz="0"
+                        sx=".4" sy=".4" sz=".4"/>
+             <materialtransforms id="7" invert="1"/> 
+                         
+            <geo id="6" dae="model/geos/cruces/cruces.zip" bitmap="model/materials/cruces/cruces.png"/>
+            <geotransforms id="6" 
+                        px="-3" py="27" pz="14"
+                        rx="0" ry="0" rz="0"
+                        sx=".45" sy=".45" sz=".45"/>
+             <materialtransforms id="5" invert="1"/> 
+                         
+            <geo id="7" dae="model/geos/calleja/calleja.zip" bitmap="model/materials/calleja/calleja.png"/>
+            <geotransforms id="7" 
+                        px="0" py="35" pz="-6"
+                        rx="180" ry="0" rz="0"
+                        sx=".6" sy=".6" sz=".6"/>
+             <materialtransforms id="6" invert="1"/> 
+                         
+            <geo id="8" dae="model/geos/morelos/morelos.zip" bitmap="model/materials/morelos/morelos.png"/> 
+            <geotransforms id="8" 
+                        px="0" py="35" pz="-8"
+                        rx="180" ry="0" rz="0"
+                        sx="0.7" sy="0.7" sz="0.7"/>
+             <materialtransforms id="8" invert="1"/> 
+                         
+            <geo id="9" dae="model/geos/cuautla/cuautla.zip" bitmap="model/materials/cuautla/cuautla.png"/>
+            <geotransforms id="9" 
+                        px="3" py="27" pz="10"
+                        rx="0" ry="0" rz="0"
+                        sx="0.5" sy="0.5" sz="0.5"/>
+             <materialtransforms id="9" invert="1"/> 
+                         
+            <geo id="10" dae="model/geos/apatzingan/apatzingan.zip" bitmap="model/materials/apatzingan/apatzingan.png"/>   
+            <geotransforms id="10" 
+                        px="3" py="27" pz="-12"
+                        rx="0" ry="0" rz="0"
+                        sx=".85" sy=".85" sz=".85"/>
+             <materialtransforms id="10" invert="1"/> 
+                         
+            <geo id="11" dae="model/geos/acatempan/acatempan.zip" bitmap="model/materials/acatempan/acatempan.png"/>
+            <geotransforms id="11" 
+                        px="0" py="27" pz="12e"
+                        rx="0" ry="0" rz="0"
+                        sx=".5" sy=".5" sz=".5"/>
+             <materialtransforms id="11" invert="1"/> 
+                         
+            <geo id="12" dae="model/geos/angel/angel.zip" bitmap="model/materials/angel/angel.png"/>
+            <geotransforms id="12" 
+                        px="-1" py="27" pz="1"
+                        rx="0" ry="0" rz="0"
+                        sx=".30" sy=".30" sz=".30"/>
+             <materialtransforms id="12" invert="1"/> 
+                        
+        </geos>	
+        <animations>	
+        
+            <animationClip id="0000" name="_world.0.Standby" geoID="0" frameINI="0" frameFIN="24" loop="0" framerate="24"   onlyInWorld="-1"/>
+         
+            <animationClip id="1002" name="_world.1.All" geoID="1" frameINI="0" frameFIN="20" loop="0" framerate="24" onlyInWorld="1"/>
+            <animationClip id="1001" name="_world.1.Standby"     geoID="1" frameINI="991" frameFIN="1040" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="2002" name="_world.2.All" geoID="2" frameINI="0" frameFIN="1140" loop="0" framerate="24" onlyInWorld="2"/>
+            <animationClip id="2001" name="_world.2.Standby"     geoID="2" frameINI="1141" frameFIN="1189" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="3002" name="_world.3.All" geoID="3" frameINI="0" frameFIN="800" loop="0" framerate="24" onlyInWorld="3"/>
+            <animationClip id="3001" name="_world.3.Standby"     geoID="3" frameINI="801" frameFIN="849" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="4002" name="_world.4.All" geoID="4" frameINI="0" frameFIN="1245" loop="0" framerate="24" onlyInWorld="4"/>
+            <animationClip id="4001" name="_world.4.Standby"     geoID="4" frameINI="1246" frameFIN="1295" loop="0" framerate="24"   onlyInWorld="-1" />  
+			
+			<animationClip id="5002" name="_world.5.All" geoID="5" frameINI="0" frameFIN="1020" loop="0" framerate="24" onlyInWorld="5"/>
+            <animationClip id="5001" name="_world.5.Standby"     geoID="5" frameINI="1021" frameFIN="1070" loop="0" framerate="24"   onlyInWorld="-1" />  
+			
+            <animationClip id="6002" name="_world.6.All" geoID="6" frameINI="1" frameFIN="740" loop="0" framerate="24" onlyInWorld="6"/>
+            <animationClip id="6001" name="_world.6.Standby"     geoID="6" frameINI="741" frameFIN="780" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="7002" name="_world.7.All" geoID="7" frameINI="1" frameFIN="1051" loop="0" framerate="24" onlyInWorld="7"/>
+            <animationClip id="7001" name="_world.7.Standby"     geoID="7" frameINI="1052" frameFIN="1101" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="8002" name="_world.8.All" geoID="8" frameINI="0" frameFIN="1052" loop="0" framerate="24" onlyInWorld="8"/>
+            <animationClip id="8001" name="_world.8.Standby"     geoID="8" frameINI="1053" frameFIN="1102" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="9002" name="_world.9.All" geoID="9" frameINI="1" frameFIN="840" loop="0" framerate="24" onlyInWorld="9"/>
+            <animationClip id="9001" name="_world.9.Standby"     geoID="9" frameINI="841" frameFIN="880" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="10002" name="_world.10.All" geoID="10" frameINI="0" frameFIN="950" loop="0" framerate="24" onlyInWorld="10"/>
+            <animationClip id="10001" name="_world.10.Standby"     geoID="10" frameINI="951" frameFIN="1000" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="11002" name="_world.11.All" geoID="11" frameINI="0" frameFIN="1245" loop="0" framerate="24" onlyInWorld="11"/>
+            <animationClip id="11001" name="_world.11.Standby"     geoID="11" frameINI="1246" frameFIN="1295" loop="0" framerate="24"   onlyInWorld="-1" />  
+         
+            <animationClip id="12002" name="_world.12.All" geoID="12" frameINI="1" frameFIN="950" loop="0" framerate="24" onlyInWorld="12"/>
+            <animationClip id="12001" name="_world.12.Standby"     geoID="12" frameINI="951" frameFIN="1000" loop="0" framerate="24"   onlyInWorld="-1" /> 
+           
+          
+          
+        </animations>	
+        <triggers>
+            <visibleGeoInAnimation geoID="0" animationID="0000"  onlyInWorld="-1"/>
+
+            <visibleGeoInAnimation geoID="1" animationID="1001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="1" animationID="1002" onlyInWorld="1" />
+
+            <visibleGeoInAnimation geoID="2" animationID="2001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="2" animationID="2002" onlyInWorld="2" />
+
+            <visibleGeoInAnimation geoID="3" animationID="3001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="3" animationID="3002" onlyInWorld="3" />
+
+            <visibleGeoInAnimation geoID="4" animationID="4001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="4" animationID="4002" onlyInWorld="4" />
+
+            <visibleGeoInAnimation geoID="5" animationID="5001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="5" animationID="5002" onlyInWorld="5" />
+
+            <visibleGeoInAnimation geoID="6" animationID="6001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="6" animationID="6002" onlyInWorld="6" />
+
+            <visibleGeoInAnimation geoID="7" animationID="7001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="7" animationID="7002" onlyInWorld="7" />
+
+            <visibleGeoInAnimation geoID="8" animationID="8001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="8" animationID="8002" onlyInWorld="8" />
+
+            <visibleGeoInAnimation geoID="9" animationID="9001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="9" animationID="9002" onlyInWorld="9" />
+
+            <visibleGeoInAnimation geoID="10" animationID="10001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="10" animationID="10002" onlyInWorld="10" />
+
+            <visibleGeoInAnimation geoID="11" animationID="11001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="11" animationID="11002" onlyInWorld="11" />
+
+            <visibleGeoInAnimation geoID="12" animationID="12001" onlyInWorld="-1"/>
+            <visibleGeoInAnimation geoID="12" animationID="12002" onlyInWorld="12" />
+
+			
+			<keyTriggerInAnimation key="0" animationID="0000" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="1" animationID="1001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="2" animationID="2001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="3" animationID="3001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="4" animationID="4001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="5" animationID="5001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="6" animationID="6001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="7" animationID="7001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="8" animationID="8001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="9" animationID="9001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="q" animationID="10001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="w" animationID="11001" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="e" animationID="12001" onlyInWorld="-1"/>
+                 
+            <keyTriggerInAnimation key="KeyUP" animationID="1002" onlyInWorld="1"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="2002" onlyInWorld="2"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="3002" onlyInWorld="3"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="4002" onlyInWorld="4"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="5002" onlyInWorld="5"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="6002" onlyInWorld="6"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="7002" onlyInWorld="7"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="8002" onlyInWorld="8"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="9002" onlyInWorld="9"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="10002" onlyInWorld="10"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="11002" onlyInWorld="11"/>
+            <keyTriggerInAnimation key="KeyUP" animationID="12002" onlyInWorld="12"/>
+                         
+
+            
+
+			<playSoundInAnimation file="audio/01 trafalgar.mp3" animationID="1002"/>
+            <playSoundInAnimation file="audio/02 queretaro.mp3" animationID="2002"/>
+            <playSoundInAnimation file="audio/03 grito dolores.mp3" animationID="3002"/>
+            <playSoundInAnimation file="audio/04 allende.mp3" animationID="4002"/>
+			<playSoundInAnimation file="audio/05 halondiga.mp3" animationID="5002"/>
+            <playSoundInAnimation file="audio/06 cruces.mp3" animationID="6002"/>
+            <playSoundInAnimation file="audio/07 calleja.mp3" animationID="7002"/>
+            <playSoundInAnimation file="audio/08 morelos.mp3" animationID="8002"/>
+            <playSoundInAnimation file="audio/09 cuautla.mp3" animationID="9002"/>
+            <playSoundInAnimation file="audio/10 apatzingan.mp3" animationID="10002"/>
+            <playSoundInAnimation file="audio/11 acatempan.mp3" animationID="11002"/>
+            <playSoundInAnimation file="audio/12 mexico.mp3" animationID="12002"/>
+            
+            <defaultAnimation animationID="0"/>
+            
+        </triggers>
+    </scene>
+</voodooRAXT>
+

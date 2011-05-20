@@ -1,0 +1,65 @@
+<voodooRAXT>
+    <properties>
+        <totalGeos value="2"/>
+        <showStats value="0"/> 
+        <trackPattern file="Data/voodoo70s16x.pat"/>   
+        <trackPatternBorderPercent value="70"/>   
+        <trackPatternResolution value="16"/>  
+        <trackPatternCorrectionMatrix px="0" py="0" pz="0" rx="0" ry="0" rz="-90" sx="-1" sy="-1" sz="-1"/>  
+        <shouldInvertMaterials value="1"/>
+        <shouldStopAnimationsOnTrackerLost value="1"/>
+        <shouldMirrorWebcam value="1"/>
+        <easeAnimation value="1"/>
+        <jitterRemover value=".62"/>
+    </properties>
+    <scene>
+        <geos>	
+        
+            <geo id="0" dae="model/geos/inter/logo.zip" bitmap="model/materials/inter/raxt.jpg"/>
+            <geotransforms id="0" 
+                        px="0" py="36" pz="0"
+                        rx="0" ry="0" rz="0"
+                        sx="1" sy="1" sz="1"/>
+            <materialtransforms id="0" invert="1"/> 
+            
+            <geo id="1" dae="model/geos/angel/angel.zip" bitmap="model/materials/angel/angel.png"/>
+            <geotransforms id="1" 
+            px="3" py="27" pz="8"
+            rx="0" ry="0" rz="0"
+            sx=".4" sy=".4" sz=".4"/>
+            <materialtransforms id="1" invert="1"/> 
+             
+                                  
+        </geos>	
+        <animations>	
+        
+            <animationClip id="0" name="_world.0.Standby" geoID="0" frameINI="0" frameFIN="24" loop="0" framerate="24"   onlyInWorld="-1"/>
+            
+            <animationClip id="1" name="_world.1.All" geoID="1" frameINI="0" frameFIN="950" loop="0" framerate="24" onlyInWorld="1"/>
+            <animationClip id="2" name="_world.1.Standby"     geoID="1" frameINI="951" frameFIN="1000" loop="0" framerate="24"   onlyInWorld="-1" />  
+            
+          
+          
+        </animations>	
+        <triggers>
+            <visibleGeoInAnimation geoID="0" animationID="0"  onlyInWorld="-1"/>
+
+            <visibleGeoInAnimation geoID="1" animationID="1" onlyInWorld="1" />
+            <visibleGeoInAnimation geoID="1" animationID="2"  onlyInWorld="-1"/>
+
+                        
+            <keyTriggerInAnimation key="0" animationID="0" onlyInWorld="-1"/>
+            <keyTriggerInAnimation key="1" animationID="2" onlyInWorld="-1"/>
+                 
+            <keyTriggerInAnimation key="KeyRIGHT" animationID="1" onlyInWorld="1"/>
+                         
+            <onCompleteTriggerAnimation animationToTriggerID="0" onAnimationCompletedID="1"/>
+            
+            <playSoundInAnimation file="audio/world00.mp3" animationID="1"/>
+            
+            <defaultAnimation animationID="0"/>
+            
+        </triggers>
+    </scene>
+</voodooRAXT >
+

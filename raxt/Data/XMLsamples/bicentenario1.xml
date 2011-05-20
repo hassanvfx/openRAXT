@@ -1,0 +1,40 @@
+<voodooRAXT>
+    <properties>
+        <totalGeos value="1"/>
+        <showStats value="0"/> 
+        <trackPattern file="Data/voodoo70s16x.pat"/>   
+        <trackPatternBorderPercent value="70"/>   
+        <trackPatternResolution value="16"/>  
+        <trackPatternCorrectionMatrix px="0" py="0" pz="0" rx="0" ry="0" rz="-90" sx="-1" sy="-1" sz="-1"/>  
+        <shouldInvertMaterials value="1"/>
+        <easeAnimation value=".95"/>
+    </properties>
+    <scene>
+        <geos>	
+            <geo id="0" dae="model/geos/world00/character01.zip" bitmap="model/materials/world00/character01.png"/>
+            <geotransforms id="0" 
+                        px="3" py="27" pz="8"
+                        rx="0" ry="0" rz="0"
+                        sx=".7" sy=".74" sz=".7"/>
+        </geos>	
+        <animations>	
+            <animationClip id="0" name="_world.0.All" geoID="0" frameINI="0" frameFIN="800" loop="0" framerate="24"/>
+            <animationClip id="1" name="_world.0.Standby" geoID="0" frameINI="801" frameFIN="831" loop="1" framerate="24"/>
+        </animations>	
+        <triggers>
+            <visibleGeoInAnimation geoID="0" animationID="0" />
+            <visibleGeoInAnimation geoID="0" animationID="1" />
+            
+            <keyTriggerInAnimation key="p" animationID="0" />
+            <keyTriggerInAnimation key="s" animationID="1" />
+            
+            <onCompleteTriggerAnimation animationToTriggerID="1" onAnimationCompletedID="0"/>
+            
+            <playSoundInAnimation file="audio/world00.mp3" animationID="0"/>
+            
+            <defaultAnimation animationID="1"/>
+            
+        </triggers>
+    </scene>
+</voodooRAXT >
+

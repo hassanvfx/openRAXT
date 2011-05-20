@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import org.voodoofx.RAXT.voodooRAXTPARSER;		public class RAXT extends voodooRAXTPARSER {						public function RAXT() {			// constructor code						loadRAXT("Data/RAXT.xml")		}	}	}
